@@ -1,0 +1,83 @@
+
+body {
+    background-color: chocolate;
+    background-image: url(https://t3.ftcdn.net/jpg/02/94/99/24/360_F_294992494_kPG2PgIe6Jn9sU4OcSw6Th6SvZD4OfWy.jpg);
+}
+   
+    
+.navhead nav {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.navhead nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+.showcase {
+    align-items: center;
+    text-align: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFXgj2g31fnuG-evACytwbI9RdjwzuI3EubVpMfxADZFtPr14svmfW6Fp844x0JKGNUAg&usqp=CAU);
+}
+.showcase h1 {
+    font-size: 50px;
+    color: chocolate;
+    font-style: italic;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.showcase a:hover{
+    color: gray;
+}
+.showcase a {
+    color:aqua;
+    font-size: 30px;
+}
+
+.about p {
+    color: white;
+}
+.logowrap {
+    min-height: 70px;
+    padding: 0 0 10px 30px;   
+}
+.logowrap img {
+    height: 80px;
+    width: 100px;
+}
+.navhead nav ul {
+    display: flex;
+    list-style: none;
+}
+.navhead nav ul li {
+    margin: 10px;
+}
+.navhead nav ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: chocolate;
+}
+.navhead nav ul li a:hover{
+    color: yellow;
+}
+.navhead {
+    background-image: url(https://t3.ftcdn.net/jpg/02/94/99/24/360_F_294992494_kPG2PgIe6Jn9sU4OcSw6Th6SvZD4OfWy.jpg);
+}
+.about h2 {
+    color: chocolate;
+}
+.about h3 {
+    display: flex;
+    justify-content:end;
+    color:whitesmoke ;
+}
+.about img {
+    border-style: none;
+    height: 55px;
+    border-radius: 50px;
+    box-shadow: 6px 6px;
+}
+.navhead footer h6 {
+    color: chocolate;
+}
